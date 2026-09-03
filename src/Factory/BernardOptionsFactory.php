@@ -24,7 +24,7 @@ class BernardOptionsFactory implements FactoryInterface
         return $this->build($serviceLocator);
     }
 
-    public function __invoke(ContainerInterface $container, $requestedName, array $options = null):BernardOptions
+    public function __invoke(ContainerInterface $container, $requestedName, ?array $options = null):BernardOptions
     {
         return $this->build($container);
     }
