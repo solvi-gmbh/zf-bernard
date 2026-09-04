@@ -5,7 +5,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/marcuskupke/bernard"
+            "url": "https://github.com/solvi-gmbh/bernard"
         }
     ],
     "require": {
